@@ -210,9 +210,9 @@ function getRandomIndex(container, history, historyLimit = 7){
  * 
  * @returns {Object} quotes[i] - a randomly generated index of the quotes array.
 ***/
-function getRandomQuote(){
+function getRandomQuote(historyLimit = 7){
 
-  let index = getRandomIndex(quotes, QUOTE_DISPLAY_HISTORY);
+  let index = getRandomIndex(quotes, QUOTE_DISPLAY_HISTORY, historyLimit);
 
   return quotes[index];
 
@@ -231,9 +231,9 @@ function getRandomQuote(){
  * 
  * @returns {string} color[i] - a randomly generated index of the colors array.
 ***/
-function getRandomColor(){
+function getRandomColor(historyLimit = 7){
 
-  let index = getRandomIndex(colors, COLOR_DISPLAY_HISTORY);
+  let index = getRandomIndex(colors, COLOR_DISPLAY_HISTORY,historyLimit);
 
   return colors[index];
 }
