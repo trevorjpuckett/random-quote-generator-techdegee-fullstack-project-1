@@ -3,6 +3,9 @@
 # Overview
 
 ### Author: Trevor J. Puckett
+###### TechDegree: Full Stack JavaScript
+##### Submission: Project 1 - A Random Quote Generator
+
 
 The goal of this project is to great a webpage that randomly displays some of my favorite quotes. 
 

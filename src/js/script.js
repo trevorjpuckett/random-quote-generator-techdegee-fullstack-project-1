@@ -155,7 +155,7 @@ const QUOTE_DISPLAY_HISTORY = [0];
  * `QUOTE_REFRESH_INTERVAL_LENGTH` int
  * The number of seconds waited before a quote is auto-refreshed.
 ***/
-const QUOTE_REFRESH_INTERVAL_LENGTH = 5;
+const QUOTE_REFRESH_INTERVAL_LENGTH = 8;
 
 
 /***
